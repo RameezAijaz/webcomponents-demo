@@ -2,8 +2,8 @@
 # Webcomponents Demo
 simple calculator UI using webcomponents.
 
-# Demo
+## Demo
 https://rameezaijaz.com/webcomponents-demo/
 
-# Running this Project
+## Running this Project
 Just directly open the index.html in the browser or use any server to serve it.
