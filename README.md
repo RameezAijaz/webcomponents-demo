@@ -1,2 +1,9 @@
-# webcomponents-demo
-simple calculator demo using webcomponents
+# Webcomponents Demo
+simple calculator UI using webcomponents.
+![logo](https://web-components-resources.appspot.com/static/logo.svg "logo")
+
+# Demo
+https://rameezaijaz.com/webcomponents-demo/
+
+# Running this Project
+Just directly open the index.html in the browser or use any server to serve it.
