@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./display-component.js"></script>
+    <script src="operator-btn-component.js"></script>
+    <script src="./numpad-btn-component.js"></script>
+    <script src="./equal-btn-component.js"></script>
+    <style>
+        body {
+            width: 510px;
+            margin: 4% auto;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 5px;
+            font-size: 1.8rem;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+
+        #calculator {
+            padding: 20px;
+            -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+            border-radius: 1px;
+        }
+
+        .buttons {}
+
+        .leftPanel {
+            display: inline-block;
+        }
+
+    </style>
+    <title>Calculator</title>
+</head>
+<body>
+<div id="calculator">
+    <display-component value="" id="calc-display"></display-component>
+    <div class="buttons">
+        <div>
+            <operator-btn-component>+</operator-btn-component>
+            <operator-btn-component>-</operator-btn-component>
+            <operator-btn-component>&times;</operator-btn-component>
+            <operator-btn-component>&divide;</operator-btn-component>
+        </div>
+        <div class="leftPanel">
+            <div>
+                <div is="numpad-btn-component">7</div>
+                <div is="numpad-btn-component">8</div>
+                <div is="numpad-btn-component">9</div>
+            </div>
+            <div>
+                <div is="numpad-btn-component">4</div>
+                <div is="numpad-btn-component">5</div>
+                <div is="numpad-btn-component">6</div>
+            </div>
+            <div>
+                <div is="numpad-btn-component">1</div>
+                <div is="numpad-btn-component">2</div>
+                <div is="numpad-btn-component">3</div>
+            </div>
+            <div>
+                <div is="numpad-btn-component">0</div>
+                <div is="numpad-btn-component">.</div>
+                <div is="numpad-btn-component" id="clear">C</div>
+            </div>
+        </div>
+        <div class="equal" id="result" is="equal-btn-component">=</div>
+    </div>
+</div>
+
+</body>
+</html>
