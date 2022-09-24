@@ -1,6 +1,6 @@
+![logo](https://web-components-resources.appspot.com/static/logo.svg "logo")
 # Webcomponents Demo
 simple calculator UI using webcomponents.
-![logo](https://web-components-resources.appspot.com/static/logo.svg "logo")
 
 # Demo
 https://rameezaijaz.com/webcomponents-demo/
